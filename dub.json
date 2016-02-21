@@ -1,0 +1,11 @@
+{
+	"name": "subdox",
+	"description": "Generate documentation for an application written in D using DDOX and Jekyll",
+	"license": "The MIT License, see license file",
+	"copyright": "Copyright © 2016, Chris Barnes",
+	"homepage": "https://github.com/chrishalebarnes/subdox",
+	"authors": ["Chris Barnes"],
+	"dependencies": {
+		"ddox": "~>0.13.2"
+	}
+}

@@ -1,0 +1,15 @@
+//-hack to get rid of leading newline
+:htmlescape
+	---
+|  layout: subdox
+|---
+
+- string title;
+block title
+nav#main-nav
+	h2= "Modules"
+	block navigation
+
+#main-contents
+	h1= title
+	block body
